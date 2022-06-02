@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>    Formulário da Adoção
+    </title>
+
+</head>
+<body>
+    <form>
+        <div>
+            <h1>Formulário de Adoção</h1>
+        </div>
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" placeholder="Nome" max="30" required>
+        </div>
+        <div>
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" placeholder="Sobrenome" max="50" required>
+        </div>
+        <div>
+            <label for="nascimento">Data de nascimento:</label>
+            <input type="date" required>
+        </div>
+        <div>
+            <label for="maioridade">Maior de 18 anos:</label>
+            <input type="radio"  id="sim" name="maioridade" required>
+            <label for="sim">Sim</label>
+            <input type="radio"  id="não" name="maioridade" required>
+            <label for="sim">Não</label>
+        </div>
+        <div>
+            <label for="cpf">CPF:</label>
+            <input type="text" required placeholder="00000000000" max="15">
+        </div>
+        <div>
+            <h2>Endereço </h2>
+        </div>
+        <div>
+            <label for="mora">Moram em:</label>
+            <input type="radio"  id="Casa" name="moradia" required>
+            <label for="Casa">Casa</label>
+            <input type="radio"  id="apartamento" name="moradia" required>
+            <label for="apartamento">apartamento</label>
+            <input type="radio"  id="sítio" name="moradia" required>
+            <label for="sítio">sítio</label>
+            <input type="radio"  id="fazenda" name="moradia" required>
+            <label for="fazenda">fazenda</label>
+            <input type="radio"  id="outro" name="moradia" required>
+            <label for="outro">outro</label>
+            <input type="text"  id="especifique" name="moradia" required>
+        </div>
+        <div>
+            <label for="end">Endereço completo:</label>
+            <input type="text" required>
+        </div>
+        <div>
+            <label for="numero">número:</label>
+            <input type="number" required>
+        </div>
+        <div>
+            <label for="bairro">Bairro:</label>
+            <input type="text" required>
+        </div>
+        <div>
+            <label for="Cidade">Cidade/UF:</label>
+            <input type="text" required>
+        </div>
+       
+        <div>
+            <label for="telefone">Telefone (what'sApp):</label>
+            <input type="tel" required placeholder="(00)00000000">
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" required>
+        </div>
+        <div>
+            <h2>Característica do animal</h2>
+        </div>
+        <div>
+            <label for="escolha">Quer Adotar:</label>
+            <input type="radio"  id="animal" name="escolha" required>
+            <label for="Cachorro">cachorro</label>
+            <input type="radio"  id="animal" name="escolha" required>
+            <label for="gato">Gato</label>
+        </div>
+        <div>
+            <label for="porte">Porte:</label>
+            <input type="radio"  id="animal" name="porte" required>
+            <label for="pequeno">pequeno</label>
+            <input type="radio"  id="animal" name="porte" required>
+            <label for="médio">médio</label>
+            <input type="radio"  id="animal" name="porte" required>
+            <label for="grande">grande</label>
+            <input type="radio"  id="animal" name="porte" required>
+            <label for="indiferete">indiferete</label>
+        </div>
+        <div>
+            <label for="sexo">sexo:</label>
+            <input type="radio"  id="animal" name="sexo" required>
+            <label for="fêmea">Fêmea</label>
+            <input type="radio"  id="animal" name="sexo" required>
+            <label for="Macho">Macho</label>
+        </div>
+        <div>
+            <label for="pq quer adotar?"> Por que você quer adotar? </label><br>
+            <textarea name="pq quer adotar?"rows="10" cols="40" required></textarea>
+        </div>
+        <div>
+            <label for="há outros animais?"> Há outros animais na casa? </label><br>
+            <textarea name="há outros animais?" rows="10" cols="40" required></textarea>
+        </div>
+        <div>
+            <label for="animais doentes"> Algum cão ou gato da casa ficou doente nos últimos meses? </label><br>
+            <textarea name="animais doentes" rows="10" cols="40" required></textarea>
+        </div>
+        <div> 
+            <br><input type="submit" value="Enviar"> 
+        </div>
+
+    </form>
+</body>
+</html>
+
